@@ -25,6 +25,7 @@
     spring.datasource.username=свой_юзернейм
     spring.datasource.password=свой_пароль
     spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
 
 ## Примечание 1
