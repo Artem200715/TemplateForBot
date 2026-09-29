@@ -27,5 +27,8 @@
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
 
-## Примечание
+## Примечание 1
 данные подсказки предназначены для версии java 25
+
+## Примечание 2
+Лучше не запускать код пока не заполнишь все классы в папке db
