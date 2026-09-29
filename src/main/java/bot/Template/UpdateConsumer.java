@@ -94,7 +94,8 @@ public class UpdateConsumer implements LongPollingUpdateConsumer {
         List<InlineKeyboardRow> keyboard = new ArrayList<>();
 
         keyboard.add(new InlineKeyboardRow(
-                createBtn("Пример", "primer")
+                createBtn("Пример", "primer"),
+                createBtn("Пример1", "primer1")
         ));
 
         message.setReplyMarkup(new InlineKeyboardMarkup(keyboard));
