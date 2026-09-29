@@ -1,6 +1,16 @@
 package bot.db;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Column;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
+
+// Ни в коем случае не пиши "import jakarta.persistence.*", новые версии Hibernate его просто не видят
 
 @Entity(name="Example")
 @Table(name="examples")
